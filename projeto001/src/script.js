@@ -5,7 +5,7 @@ let nomeHeroi = "monstrão"; // Variável para armazenar o nome do herói
 let nivel = ""; // Variável para armazenar o nível do herói
 
 // Laço de repetição para XP de 0 a 10000
-for (let xp = 0; xp <= 10000; xp++) { // Laço de repetição (for) que itera de 0 a 10000
+for (let xp = 0; xp <= 11000; xp += 301) { // Laço de repetição (for) que itera de 0 a 10000
     // Estruturas de decisão para determinar o nível
     if (xp < 1000) { // Estrutura de decisão (if) para verificar se XP é menor que 1000
         nivel = "Ferro"; // Atribuição do nível "Ferro"
